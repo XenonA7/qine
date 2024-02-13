@@ -1,4 +1,6 @@
-# Qine
+# Qine (Unofficial Update)
+### Qine mod and assets belong to and were created by Sgrunt. This unofficial update is not affiliated with the original author.
+### This unofficial update contains fixes and compatibility patches to make Qine work with modern CCLoader2 versions and other mods.
 
 Qine the Quadroguard, featuring both a PvP duel and a new party member.
 
