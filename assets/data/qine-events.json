@@ -1,4 +1,38 @@
 {
+  "qine-load": {
+    "frequency": "ALWAYS",
+    "repeat": "ONCE",
+    "condition": "",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SET_CONTACT_TYPE",
+        "member": "Qine",
+        "status": "FRIEND"
+      },
+      {
+        "type": "SET_PARTY_MEMBER_LEVEL",
+        "member": "Qine",
+        "level": 60,
+        "exp": 183,
+        "updateEquipment": true
+      },
+      {
+        "type": "SET_PARTY_MEMBER_SP_LEVEL",
+        "member": "Qine",
+        "level": 3
+      },
+      {
+        "type": "SET_PARTY_MEMBER_ALL_ELEMENTS",
+        "member": "Qine",
+        "allElements": true
+      }
+    ],
+    "type": {
+      "type": "MAP_ENTERED"
+    }
+  },
   "qine-battle-start": {
     "frequency": "ALWAYS",
     "repeat": "REPEAT",
@@ -181,7 +215,7 @@
             }
           },
           {
-            "callEvent": "arena-teleport",
+            "callEvent": "qine-teleport",
             "type": "CALL_EVENT"
           }
         ],
@@ -230,7 +264,7 @@
       "type": "SOCIAL_ACTION"
     }
   },
-  "arena-teleport": {
+  "qine-teleport": {
     "frequency": "ALWAYS",
     "repeat": "REPEAT",
     "eventType": "PARALLEL",

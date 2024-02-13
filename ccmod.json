@@ -1,0 +1,30 @@
+{
+	"id": "Qine",
+	"version": "0.3.0",
+	"title": {
+		"en_US": "Qine",
+		"de_DE": "Qine",
+		"fr_FR": "Qine",
+		"zh_CN": "Qine",
+		"zh_TW": "Qine",
+		"ja_JP": "Qine",
+		"ko_KR": "Qine"
+	},
+	"description": {
+		"en_US": "Adds the character Qine as a party member and PvP duel.",
+		"de_DE": "Adds the character Qine as a party member and PvP duel.",
+		"fr_FR": "Adds the character Qine as a party member and PvP duel.",
+		"zh_CN": "Adds the character Qine as a party member and PvP duel.",
+		"zh_TW": "Adds the character Qine as a party member and PvP duel.",
+		"ja_JP": "Adds the character Qine as a party member and PvP duel.",
+		"ko_KR": "Adds the character Qine as a party member and PvP duel."
+	},
+	"icons": {
+		"24": "icon.png"
+	},
+	"prestart": "mod.js",
+	"homepage": "https://github.com/sgrunt/qine",
+	"dependencies": {
+		"extendable-severed-heads": ">=1.1.0"
+	}
+}

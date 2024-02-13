@@ -1,0 +1,13 @@
+[
+  {
+    "type": "ENTER",
+    "index": "commonEvents"
+  },
+  {
+    "type": "INCLUDE",
+    "src": "assets/data/qine-events.json"
+  },
+  {
+    "type": "EXIT"
+  }
+]

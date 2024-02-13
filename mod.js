@@ -1,3 +1,5 @@
+import './config/bgm/track-list.js';
+/*
 sc.CommonEvents.inject({
 	_loadCommonEvents: function() {
 		// let it do its thing
@@ -20,6 +22,7 @@ sc.CommonEvents.inject({
 		}
 	}
 });
+*/
 
 class Qine {
   constructor() {

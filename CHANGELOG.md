@@ -1,3 +1,20 @@
+## v0.3.0 (12-Feb-2024) - XenonA7 unofficial
+  * Moved mod files to root directory
+  * Changelog is now .md
+  * Created mod icon
+  * Replaced package.json with new ccmod.json
+  * Updated dependency for extendable-severed-heads 1.1.0
+  * Reformatted headIdx.json.patch and Qine enemy file to use string headIdx
+  * Reformatted \config\bgm\track-list.json into **track-list.js**, imported in mod.js
+  * Renamed commonEvent "arena-teleport" to "qine-teleport" to fix a conflict
+  * Deleted commonEvent "qineLoad" from database.json.patch
+  * Added commonEvent "qine-load" to qine-events.json
+  * Removed unused patch steps from database.json.patch
+  * Qine duel enemy now scales to player level
+  * Qine duel enemy EXP drop changed from 1000 to 0
+  * Commented out the code related to "no-contact" in mod.js
+  * Added enemy "qine2", which is a version without camera steps and dialogue support for external use
+
 v0.2.7 (27-Nov-2019)
   * Tweaks to the metadata to play better with CCModDB, courtesy of 20kdc.
   * Another dependency fix courtesy of ac2pic.
