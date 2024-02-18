@@ -19,11 +19,13 @@
 		"ja_JP": "Adds the character Qine as a party member and PvP duel.",
 		"ko_KR": "Adds the character Qine as a party member and PvP duel."
 	},
+    "repository": "https://github.com/XenonA7/qine",
+    "tags": ["character"],
+    "authors": ["sgrunt", "xenon"],
 	"icons": {
 		"24": "icon.png"
 	},
 	"prestart": "mod.js",
-	"homepage": "https://github.com/sgrunt/qine",
 	"dependencies": {
 		"extendable-severed-heads": ">=1.1.0"
 	}
