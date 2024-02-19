@@ -20,7 +20,7 @@
 		"ko_KR": "Adds the character Qine as a party member and PvP duel."
 	},
     "repository": "https://github.com/XenonA7/qine",
-    "tags": ["character"],
+    "tags": ["party member", "pvp duel"],
     "authors": ["sgrunt", "xenon"],
 	"icons": {
 		"24": "icon.png"
