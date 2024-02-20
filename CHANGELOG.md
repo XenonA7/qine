@@ -1,3 +1,7 @@
+## v0.3.1 (12-Feb-2024)
+  * Qine2 exp drop changed from 1000 to 0
+  * Updated to new ccmod.json format
+
 ## v0.3.0 (12-Feb-2024) - XenonA7 unofficial
   * Moved mod files to root directory
   * Changelog is now .md
